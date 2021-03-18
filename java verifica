@@ -1,0 +1,40 @@
+codice del file A.java:
+
+1
+2
+3 Sì
+4
+5 Sì
+6 Sì
+7
+8-11 Sì, è un costruttore
+12
+13-15 No, è un metodo con ritorno ma non ci sono parametri in ingresso
+16
+17-19 No, è un metodo senza ritorno ma non ci sono paramentri in input
+
+
+codice del file B.java:
+
+1
+2
+3 Sì, la classe figlia B estende la classe padre A e implementa un interfaccia D
+4 No, perchè la classe B non parametri quindi il constructor è sbagliato
+5 No, perchè A ha due parametri x , y e di tipo integer
+6
+7
+8-11 No, non esiste un "metodo1()" nella classe padre ma solo in interface D
+12
+13-15 Sì, l'override si può fare
+16
+17
+18
+
+codice del file C.java:
+
+1
+2
+3 Sì, C può estendere A
+4-6 No
+
+
