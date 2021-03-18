@@ -19,11 +19,11 @@ codice del file B.java:
 1
 2
 3 Sì, la classe figlia B estende la classe padre A e implementa un interfaccia D
-4 No, perchè la classe B non parametri quindi il constructor è sbagliato
-5 No, perchè A ha due parametri x , y e di tipo integer
+4 Sì, perchè il constructor eredita i parametri super del padre 
+5 Sì
 6
 7
-8-11 No, non esiste un "metodo1()" nella classe padre ma solo in interface D
+8-11 Sì
 12
 13-15 Sì, l'override si può fare
 16
@@ -35,6 +35,103 @@ codice del file C.java:
 1
 2
 3 Sì, C può estendere A
-4-6 No
+4-6 Sì
+7
+8-11 Si può fare
+12
+
+codice del file D.java:
+
+1
+2
+3-5 Sì, corretto
+6
+
+codice del file E.java:
+
+
+1
+2
+3 Sì, E può implementare D 
+4
+5 Sì
+6
+7-9 Sì,il constructor funziona
+10
+11-14 No, il parametro x non ha tipo
+15
+16
+17
+
+
+codice del file Main.java:
+
+1
+2 Sì
+3 
+4 Sì
+5 Sì
+6 No, il metodo 2 non va
+7 Sì
+8 No
+9 Sì stampa il metodo 2 della class B
+10 Sì
+11 no
+12 Si
+13 Sì
+14 
+15-16 Sì funziona stampa Ciao in caso il resto della div è 0
+
+18-21 Stamperà "java"
+22
+23 Sì
+24 No, D è un interface
+25 No
+26 Sì
+27-30 Sì
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
